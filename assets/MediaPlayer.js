@@ -52,7 +52,7 @@ MediaPlayer.prototype.mute = function() {
 };
 
 MediaPlayer.prototype.unMute = function() {
-    this.media.muted = flase;
+    this.media.muted = false;
 };
 
 export default MediaPlayer;
