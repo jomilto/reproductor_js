@@ -1,8 +1,21 @@
+// Array
+let peopleAndNumbers: Array<string | number> = [];
+peopleAndNumbers.push("name");
+
 // Interfaces
 enum Color {
-  Rojo = 'Rojo',
-  Verde = 'Verde',
+  Rojo = "Rojo",
+  Verde = "Verde",
+  Azul = "Azul"
 }
+
+let colorFavorito: Color = Color.Azul;
+console.log(`Mi color favorito es ${colorFavorito}`)
+
+let comodin: any = "Joker";
+comodin = { type: 'Wildcard'};
+
+let objeto: object = { type: 'Wildcard'};
 
 interface Rectangulo {
   ancho: number;
