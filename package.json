@@ -4,12 +4,17 @@
   "description": "Proyecto curso profesional de JS",
   "main": "index.js",
   "scripts": {
-    "start": "live-server"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
-  "keywords": ["media player"],
+  "keywords": [
+    "media player"
+  ],
   "author": "Jomilto <joselobatof@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
