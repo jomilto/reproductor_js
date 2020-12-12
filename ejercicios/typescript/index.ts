@@ -17,6 +17,26 @@ comodin = { type: 'Wildcard'};
 
 let objeto: object = { type: 'Wildcard'};
 
+function add(a: number, b: number): number {
+  return a + b;
+}
+
+function createAdder(a: number): (number) => number {
+  return function(b: number)  {
+    return b + a;
+  };
+}
+
+const addFour = createAdder(4);
+const fourPlus6 = addFour(6);
+
+function fullName(firstNName: string, lastName: string = 'Smith'): string {
+  return `${firstNName} ${lastName}`;
+}
+
+const nombre = fullName('Nombre','Apellido');
+const otro = fullName('Nombre');
+
 interface Rectangulo {
   ancho: number;
   alto: number;
