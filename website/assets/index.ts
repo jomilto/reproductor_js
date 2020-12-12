@@ -1,4 +1,4 @@
-import MediaPlayer from './MediaPlayer';
+import MediaPlayer from '../mediaplayer/MediaPlayer';
 import AutoPlay from './plugins/AutoPlay';
 import AutoPause from './plugins/AutoPause';
 import Ads from './plugins/Ads';
