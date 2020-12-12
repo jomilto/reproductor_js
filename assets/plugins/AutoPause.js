@@ -16,9 +16,9 @@ class AutoPause {
         const entry = entries[0];
         const isVisible = entry.intersectionRatio >= this.threshold
         if (isVisible){
-            player.play();
+            this.player.play();
         }else{
-            player.pause();
+            this.player.pause();
         }
     }
 
